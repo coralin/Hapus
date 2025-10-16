@@ -26,7 +26,7 @@ on:
       target_repo:
         description: "Repository utama tempat aktivitas"
         required: true
-        default: "countback/HAPUS"
+        default: "coralin/HAPUS"
 
 jobs:
   unified:
