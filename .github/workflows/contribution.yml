@@ -6,7 +6,7 @@ on:
       total_commits:
         description: "Jumlah total commit per akun"
         required: true
-        default: "1650"
+        default: "1"
       total_days:
         description: "Jumlah hari pembagian commit"
         required: true
@@ -14,15 +14,15 @@ on:
       total_prs:
         description: "Jumlah Pull Request per akun"
         required: true
-        default: "120"
+        default: "1"
       total_issues:
         description: "Jumlah Issue per akun"
         required: true
-        default: "130"
+        default: "1"
       repo_count:
         description: "Jumlah repository tambahan per akun"
         required: true
-        default: "1"
+        default: "25"
       target_repo:
         description: "Repository utama tempat aktivitas"
         required: true
