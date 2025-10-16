@@ -180,8 +180,8 @@ jobs:
             cd $NAME
             echo "$FILE_CONTENT" > $FILE_NAME
             git add .
-            git commit -m "Initial commit (${LANGS[$LANG_INDEX]})"
-            git push origin main --force
+            git commit -m "Initial commit (${LANGS[$LANG_INDEX]})" || echo "ℹ️ Tidak ada perubahan untuk dikomit, lanjut..."
+            git push origin main --force || true
             cd ..
             rm -rf $NAME
           done
